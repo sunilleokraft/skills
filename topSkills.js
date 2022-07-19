@@ -29,8 +29,7 @@ function topSkills(data, inputArray, options) {
   ];
   finalOutput = [...new Set(finalOutput)];
 
-  //   console.log(finalOutput);
-  console.log(getFilterDataWithConfig(finalOutput, data));
+  return getFilterDataWithConfig(finalOutput, data);
 }
 
 module.exports = topSkills;
